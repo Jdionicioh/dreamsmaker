@@ -1,0 +1,146 @@
+{
+    "intents": [
+        
+            {
+                "tag": "saludo",
+                "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "¿Qué tal?"],
+                "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Buenas! ¿Qué necesitas?", "¡Hola! ¿En qué puedo asistirte?"]
+            },
+            {
+                "tag": "colegiatura",
+                "patterns": ["¿Cuánto cuesta la colegiatura?", "¿Cuál es el precio de la colegiatura?", "Costo de la colegiatura"],
+                "responses": ["La colegiatura mensual es de Q.750.00", "El costo de la colegiatura es de Q.750.00 mensuales"]
+            },
+            {
+                "tag": "ubicacion",
+                "patterns": ["¿Dónde están ubicados?", "¿Cuál es la dirección del colegio?", "Ubicación del colegio"],
+                "responses": ["Estamos ubicados en Mixco, Guatemala. La dirección exacta es 5ta Avenida, Zona 4, Mixco, Guatemala."]
+            },
+            {
+                "tag": "grados_escolares",
+                "patterns": ["¿Qué grados escolares ofrecen?", "¿Cuáles son los grados disponibles?", "Grados escolares en el colegio"],
+                "responses": ["Ofrecemos desde preescolar hasta bachillerato. Los grados incluyen: preescolar, primaria y secundaria."]
+            },
+            {
+                "tag": "horarios",
+                "patterns": ["¿Cuáles son los horarios de clases?", "¿A qué hora empiezan y terminan las clases?","Horario de clases", "Horarios del colegio"],
+                "responses": ["Las clases comienzan a las 7:30 AM y terminan a las 3:00 PM de lunes a viernes."]
+            },
+            {
+                "tag": "contacto",
+                "patterns": ["¿Cómo puedo contactarlos?", "Información de contacto", "Número de teléfono del colegio"],
+                "responses": ["Puedes contactarnos al teléfono +502 1234-5678 o al correo electrónico info@dreamsmaker.edu.gt."]
+            },
+            {
+                "tag": "inscripciones",
+                "patterns": ["¿Cómo puedo inscribir a mi hijo?", "Proceso de inscripción", "¿Qué necesito para inscribir a mi hijo?"],
+                "responses": ["Para inscribir a tu hijo, necesitas completar el formulario de inscripción, presentar la partida de nacimiento y realizar el pago de inscripción. Para más detalles, visita nuestra oficina o nuestra página web."]
+            },
+            {
+                "tag": "actividades_extracurriculares",
+                "patterns": ["¿Qué actividades extracurriculares ofrecen?", "Actividades extracurriculares", "¿Hay actividades después de clases?"],
+                "responses": ["Ofrecemos una variedad de actividades extracurriculares como deportes, música, arte, y club de ciencias. Las actividades se realizan después de clases y están abiertas para todos los estudiantes."]
+            },
+            {
+                "tag": "uniforme",
+                "patterns": ["¿Qué uniforme deben usar los estudiantes?", "Uniforme escolar", "¿Dónde puedo comprar el uniforme?"],
+                "responses": ["Los estudiantes deben usar uniforme de lunes a viernes. Puedes comprar el uniforme en la tienda del colegio o en tiendas autorizadas."]
+            },
+            {
+                "tag": "calendario_escolar",
+                "patterns": ["¿Cuál es el calendario escolar?", "Fechas importantes del año escolar", "Calendario de clases"],
+                "responses": ["El calendario escolar se publica en nuestra página web a inicio de cada año. Incluye las fechas de inicio y fin de clases, vacaciones y días festivos."]
+            },
+            {
+                "tag": "transporte",
+                "patterns": ["¿Ofrecen servicio de transporte escolar?", "Transporte escolar", "¿Cómo puedo solicitar el transporte escolar?"],
+                "responses": ["Sí, ofrecemos servicio de transporte escolar. Para solicitar el transporte, por favor contacta a nuestra oficina administrativa para más detalles."]
+            },
+            {
+                "tag": "costo_transporte",
+                "patterns": ["¿Cuánto cuesta el transporte escolar?", "Precio del transporte escolar", "Costo del servicio de transporte"],
+                "responses": ["El costo del transporte escolar es de Q.250.00 mensuales."]
+            },
+            {
+                "tag": "becas",
+                "patterns": ["¿Ofrecen becas?", "¿Hay becas disponibles?", "Información sobre becas"],
+                "responses": ["Sí, ofrecemos becas para estudiantes destacados. Para más información sobre cómo aplicar, por favor visita nuestra oficina o página web."]
+            },
+            {
+                "tag": "alimentacion",
+                "patterns": ["¿Ofrecen servicio de alimentación?", "¿Hay cafetería en el colegio?", "Información sobre el servicio de alimentación"],
+                "responses": ["Sí, tenemos una cafetería que ofrece almuerzos y refrigerios saludables. Los precios varían según el menú diario."]
+            },
+            {
+                "tag": "costos_adicionales",
+                "patterns": ["¿Hay costos adicionales?", "Costos extras", "¿Qué costos adicionales debo considerar?"],
+                "responses": ["Además de la colegiatura, pueden haber costos adicionales para uniformes, materiales escolares y actividades extracurriculares."]
+            },
+            {
+                "tag": "eventos",
+                "patterns": ["¿Qué eventos realizan en el colegio?", "Eventos escolares", "¿Hay eventos especiales durante el año?"],
+                "responses": ["Realizamos varios eventos a lo largo del año, incluyendo ferias científicas, competencias deportivas, conciertos y festivales culturales."]
+            },
+            {
+                "tag": "educacion_virtual",
+                "patterns": ["¿Ofrecen educación virtual?", "Clases en línea", "¿Tienen opción de clases virtuales?"],
+                "responses": ["Sí, ofrecemos educación virtual para aquellos que no pueden asistir de manera presencial. Para más detalles, por favor contacta a nuestra administración."]
+            },
+            {
+                "tag": "requisitos_ingreso",
+                "patterns": ["¿Cuáles son los requisitos de ingreso?", "Requisitos para inscribirse", "¿Qué se necesita para ingresar al colegio?"],
+                "responses": ["Los requisitos de ingreso incluyen completar el formulario de inscripción, presentar documentos de identidad, un examen médico y el pago de inscripción."]
+            },
+            {
+                "tag": "historia_colegio",
+                "patterns": ["¿Cuál es la historia del colegio?", "Historia de Dreams Maker", "¿Cómo se fundó el colegio?"],
+                "responses": ["Dreams Maker fue fundado en 1995 con la misión de proporcionar una educación de alta calidad en Mixco, Guatemala. A lo largo de los años, hemos crecido y evolucionado, ofreciendo una educación integral a nuestros estudiantes."]
+            },
+            {
+                "tag": "metodologia_educativa",
+                "patterns": ["¿Cuál es su metodología educativa?", "Metodología de enseñanza", "Métodos educativos del colegio"],
+                "responses": ["Nuestra metodología educativa se centra en el aprendizaje activo, con un enfoque en el desarrollo integral del estudiante. Utilizamos técnicas modernas y tradicionales para garantizar una educación completa."]
+            },
+            {
+                "tag": "visitas_guiadas",
+                "patterns": ["¿Ofrecen visitas guiadas?", "¿Puedo visitar el colegio?", "Visitas al colegio"],
+                "responses": ["Sí, ofrecemos visitas guiadas para padres y estudiantes interesados. Por favor, contacta a nuestra oficina para programar una visita."]
+            },
+            {
+                "tag": "filosofia",
+                "patterns": ["¿Cuál es la filosofía del colegio?", "Filosofía educativa", "Principios del colegio"],
+                "responses": ["Nuestra filosofía se basa en la formación integral de nuestros estudiantes, fomentando valores como el respeto, la responsabilidad y el compromiso con la comunidad."]
+            },
+            {
+                "tag": "programa_bilingue",
+                "patterns": ["¿Tienen programa bilingüe?", "Educación bilingüe", "¿Ofrecen clases en inglés?"],
+                "responses": ["Sí, ofrecemos un programa bilingüe que incluye clases en inglés y español para todos los niveles escolares."]
+            },
+            {
+                "tag": "psicopedagogia",
+                "patterns": ["¿Ofrecen apoyo psicopedagógico?", "Apoyo psicológico", "¿Tienen servicios de psicopedagogía?"],
+                "responses": ["Sí, contamos con un equipo de psicopedagogos que brinda apoyo a nuestros estudiantes para garantizar su bienestar emocional y académico."]
+            },
+            {
+                "tag": "costos_inscripcion",
+                "patterns": ["¿Cuánto cuesta la inscripción?", "Costo de inscripción", "Precio de la inscripción"],
+                "responses": ["El costo de la inscripción es de Q.500.00, que incluye el material didáctico y la matrícula del estudiante."]
+            },
+            {
+                "tag": "tecnologia",
+                "patterns": ["¿Utilizan tecnología en el aula?", "Tecnología educativa", "¿Tienen aulas digitales?"],
+                "responses": ["Sí, nuestras aulas están equipadas con tecnología moderna, incluyendo pizarras digitales y acceso a internet para apoyar el aprendizaje."]
+            },
+            {
+                "tag": "biblioteca",
+                "patterns": ["¿Tienen biblioteca?", "Biblioteca escolar", "¿Puedo usar la biblioteca del colegio?"],
+                "responses": ["Sí, contamos con una biblioteca bien equipada disponible para todos los estudiantes, con una amplia colección de libros y recursos digitales."]
+            },
+            {
+                "tag": "admisiones",
+                "patterns": ["¿Cuándo abren las admisiones?", "Fechas de admisión", "Proceso de admisión"],
+                "responses": ["Las admisiones están abiertas todo el año, pero recomendamos aplicar antes del inicio del año escolar para asegurar un lugar."]
+            }
+        ]
+
+}
